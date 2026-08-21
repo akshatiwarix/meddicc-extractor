@@ -12,7 +12,8 @@ export const METRICS_VOCAB: PillarVocab = {
     { value: "10%", template: "It's hard to pin down, but maybe around {V} improvement." },
   ],
   weak: [
-    { value: "$50K", template: "Someone mentioned a number, maybe {V}, but I wasn't in that meeting." },
-    { value: "a few hours", template: "I heard it could save {V} here and there, nothing concrete." },
+    // A rounded-off rumor of a number is genuinely a different fact than the real one.
+    { value: "$50K", groundTruthValue: "$45K", template: "Someone mentioned a number, maybe {V}, but I wasn't in that meeting." },
+    { value: "a few hours", groundTruthValue: "6 hours", template: "I heard it could save {V} here and there, nothing concrete." },
   ],
 };

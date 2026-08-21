@@ -11,7 +11,8 @@ export const IDENTIFY_PAIN_VOCAB: PillarVocab = {
     { value: "missed follow-ups", template: "It's somewhat frustrating that we keep having {V}." },
   ],
   weak: [
-    { value: "a bit of manual copy-pasting", template: "I guess it's mildly annoying that there's {V} involved." },
-    { value: "occasional sync issues", template: "Not a huge deal, but there are {V} sometimes." },
+    // Downplayed as "mildly annoying" genuinely undersells what the real pain turns out to be.
+    { value: "a bit of manual copy-pasting", groundTruthValue: "hours of manual copy-pasting weekly", template: "I guess it's mildly annoying that there's {V} involved." },
+    { value: "occasional sync issues", groundTruthValue: "recurring data sync failures", template: "Not a huge deal, but there are {V} sometimes." },
   ],
 };

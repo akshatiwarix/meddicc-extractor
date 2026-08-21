@@ -22,7 +22,22 @@
         {
           "speaker": "prospect",
           "speakerName": "Avery Marchetti",
-          "text": "Marcus Whitfield, CEO ultimately owns the budget for this."
+          "text": "SOC 2 compliance is a hard requirement for us — we can't move forward without it."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Avery Marchetti",
+          "text": "single sign-on support is non-negotiable on our side."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Avery Marchetti",
+          "text": "The next step is board approval next month — that's the last gate."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Avery Marchetti",
+          "text": "Our process from here is security review, then legal, then a signature."
         },
         {
           "speaker": "prospect",
@@ -32,7 +47,17 @@
         {
           "speaker": "prospect",
           "speakerName": "Avery Marchetti",
-          "text": "We're also evaluating Vendor A alongside your product."
+          "text": "Grace Feldman, Sales Ops Manager has been championing this internally."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Avery Marchetti",
+          "text": "Owen Castillo, Team Lead is really pushing for this on our side."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Avery Marchetti",
+          "text": "We might take a look at CompeteCo too, haven't decided."
         },
         {
           "speaker": "prospect",
@@ -46,28 +71,28 @@
           "value": null
         },
         "economicBuyer": {
+          "status": "found",
+          "value": "Elena Diaz, CFO"
+        },
+        "decisionCriteria": {
           "status": "ambiguous",
           "value": null
         },
-        "decisionCriteria": {
-          "status": "absent",
-          "value": null
-        },
         "decisionProcess": {
-          "status": "absent",
+          "status": "ambiguous",
           "value": null
         },
         "identifyPain": {
           "status": "found",
-          "value": "a bit of manual copy-pasting"
+          "value": "hours of manual copy-pasting weekly"
         },
         "champion": {
-          "status": "absent",
+          "status": "ambiguous",
           "value": null
         },
         "competition": {
           "status": "found",
-          "value": "Vendor A"
+          "value": "CompeteCo"
         }
       }
     },
@@ -98,17 +123,17 @@
         {
           "speaker": "prospect",
           "speakerName": "Devon Wren",
-          "text": "I think the process involves three more stakeholder demos, roughly."
+          "text": "Before we can sign, we need procurement sign-off after the pilot."
         },
         {
           "speaker": "prospect",
           "speakerName": "Devon Wren",
-          "text": "Ethan Voss, Team Lead mentioned it once in passing, nothing more than that."
+          "text": "Sophia Reyes might be open to it, but I'm not sure."
         },
         {
           "speaker": "prospect",
           "speakerName": "Devon Wren",
-          "text": "Someone suggested we compare this to LegacyStack."
+          "text": "Honestly, we're not evaluating anyone else — you're the only one we're talking to."
         },
         {
           "speaker": "prospect",
@@ -131,7 +156,7 @@
         },
         "decisionProcess": {
           "status": "found",
-          "value": "three more stakeholder demos"
+          "value": "procurement sign-off after the pilot"
         },
         "identifyPain": {
           "status": "absent",
@@ -139,11 +164,11 @@
         },
         "champion": {
           "status": "found",
-          "value": "Ethan Voss, Team Lead"
+          "value": "Sophia Reyes, Senior Analyst"
         },
         "competition": {
           "status": "found",
-          "value": "LegacyStack"
+          "value": "anyone else"
         }
       }
     },
@@ -164,22 +189,22 @@
         {
           "speaker": "prospect",
           "speakerName": "Morgan Sinclair",
-          "text": "I think Rachel Kim, Chief Revenue Officer has some say in the budget, though I'm not certain."
+          "text": "David Ortiz, COO is probably involved in approving this somehow."
         },
         {
           "speaker": "prospect",
           "speakerName": "Morgan Sinclair",
-          "text": "Our process from here is security review, then legal, then a signature."
+          "text": "Before we can sign, we need procurement sign-off after the pilot."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Morgan Sinclair",
+          "text": "Grace Feldman, Sales Ops Manager has been championing this internally."
         },
         {
           "speaker": "prospect",
           "speakerName": "Morgan Sinclair",
           "text": "Owen Castillo, Team Lead is really pushing for this on our side."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Morgan Sinclair",
-          "text": "Maya Torres, Product Manager has been selling this internally for us."
         },
         {
           "speaker": "prospect",
@@ -199,7 +224,7 @@
         },
         "economicBuyer": {
           "status": "found",
-          "value": "Rachel Kim, Chief Revenue Officer"
+          "value": "David Ortiz, COO"
         },
         "decisionCriteria": {
           "status": "absent",
@@ -207,7 +232,7 @@
         },
         "decisionProcess": {
           "status": "found",
-          "value": "security review, then legal, then a signature"
+          "value": "procurement sign-off after the pilot"
         },
         "identifyPain": {
           "status": "absent",
@@ -255,17 +280,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Quinn Sinclair",
-          "text": "Before we can sign, we need procurement sign-off after the pilot."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Quinn Sinclair",
-          "text": "We're currently using RivalCorp and comparing it to yours."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Quinn Sinclair",
-          "text": "We're also evaluating Vendor A alongside your product."
+          "text": "The next step is board approval next month — that's the last gate."
         },
         {
           "speaker": "prospect",
@@ -288,7 +303,7 @@
         },
         "decisionProcess": {
           "status": "found",
-          "value": "procurement sign-off after the pilot"
+          "value": "board approval next month"
         },
         "identifyPain": {
           "status": "absent",
@@ -299,7 +314,7 @@
           "value": null
         },
         "competition": {
-          "status": "ambiguous",
+          "status": "absent",
           "value": null
         }
       }
@@ -331,7 +346,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Casey Okafor",
-          "text": "It usually goes through a 30-day evaluation period, from what I understand."
+          "text": "Our process from here is security review, then legal, then a signature."
         },
         {
           "speaker": "prospect",
@@ -341,12 +356,12 @@
         {
           "speaker": "prospect",
           "speakerName": "Casey Okafor",
-          "text": "Grace Feldman, Sales Ops Manager has been championing this internally."
+          "text": "Maya Torres, Product Manager has been selling this internally for us."
         },
         {
           "speaker": "prospect",
           "speakerName": "Casey Okafor",
-          "text": "Owen Castillo, Team Lead is really pushing for this on our side."
+          "text": "Grace Feldman, Sales Ops Manager has been championing this internally."
         },
         {
           "speaker": "prospect",
@@ -369,7 +384,7 @@
         },
         "decisionProcess": {
           "status": "found",
-          "value": "a 30-day evaluation period"
+          "value": "security review, then legal, then a signature"
         },
         "identifyPain": {
           "status": "found",
@@ -402,12 +417,12 @@
         {
           "speaker": "prospect",
           "speakerName": "Morgan Wren",
-          "text": "That would free up 15 hours a week for the team."
+          "text": "It's hard to pin down, but maybe around 10% improvement."
         },
         {
           "speaker": "prospect",
           "speakerName": "Morgan Wren",
-          "text": "Nina Osei, CFO might be looped in on approvals at some point."
+          "text": "Nina Osei might be looped in on approvals at some point."
         },
         {
           "speaker": "prospect",
@@ -417,12 +432,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Morgan Wren",
-          "text": "The next step is board approval next month — that's the last gate."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Morgan Wren",
-          "text": "Our process from here is security review, then legal, then a signature."
+          "text": "Before we can sign, we need procurement sign-off after the pilot."
         },
         {
           "speaker": "prospect",
@@ -432,12 +442,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Morgan Wren",
-          "text": "The real problem for us is manual reporting eating up 10 hours a week."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Morgan Wren",
-          "text": "We might take a look at CompeteCo too, haven't decided."
+          "text": "Someone mentioned something from a past project, though it barely came up."
         },
         {
           "speaker": "prospect",
@@ -448,7 +453,7 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "15 hours"
+          "value": "10%"
         },
         "economicBuyer": {
           "status": "found",
@@ -459,12 +464,12 @@
           "value": "single sign-on support"
         },
         "decisionProcess": {
-          "status": "ambiguous",
-          "value": null
+          "status": "found",
+          "value": "procurement sign-off after the pilot"
         },
         "identifyPain": {
-          "status": "ambiguous",
-          "value": null
+          "status": "found",
+          "value": "our current tool constantly going down"
         },
         "champion": {
           "status": "absent",
@@ -472,7 +477,7 @@
         },
         "competition": {
           "status": "found",
-          "value": "CompeteCo"
+          "value": "an old internal spreadsheet"
         }
       }
     },
@@ -498,7 +503,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Casey Fitzgerald",
-          "text": "Priya Menon, VP of Finance has the final say on this purchase."
+          "text": "Elena Diaz, CFO will need to sign off before we can move forward."
         },
         {
           "speaker": "prospect",
@@ -508,7 +513,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Casey Fitzgerald",
-          "text": "Zoe Whitaker, Operations Lead has been fairly positive about it, from what I've seen."
+          "text": "Owen Castillo, Team Lead is really pushing for this on our side."
         },
         {
           "speaker": "prospect",
@@ -523,7 +528,7 @@
         },
         "economicBuyer": {
           "status": "found",
-          "value": "Priya Menon, VP of Finance"
+          "value": "Elena Diaz, CFO"
         },
         "decisionCriteria": {
           "status": "absent",
@@ -539,7 +544,7 @@
         },
         "champion": {
           "status": "found",
-          "value": "Zoe Whitaker, Operations Lead"
+          "value": "Owen Castillo, Team Lead"
         },
         "competition": {
           "status": "absent",
@@ -579,22 +584,12 @@
         {
           "speaker": "prospect",
           "speakerName": "Rowan Delgado",
-          "text": "It usually goes through a 30-day evaluation period, from what I understand."
+          "text": "Our process from here is security review, then legal, then a signature."
         },
         {
           "speaker": "prospect",
           "speakerName": "Rowan Delgado",
-          "text": "What's really killing us is deals slipping through the cracks."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Rowan Delgado",
-          "text": "We're losing deals because of our current tool constantly going down."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Rowan Delgado",
-          "text": "Ethan Voss, Team Lead mentioned it once in passing, nothing more than that."
+          "text": "Leo Bennett, Senior Analyst seems supportive of this so far."
         },
         {
           "speaker": "prospect",
@@ -627,15 +622,15 @@
         },
         "decisionProcess": {
           "status": "found",
-          "value": "a 30-day evaluation period"
+          "value": "security review, then legal, then a signature"
         },
         "identifyPain": {
-          "status": "ambiguous",
+          "status": "absent",
           "value": null
         },
         "champion": {
           "status": "found",
-          "value": "Ethan Voss, Team Lead"
+          "value": "Leo Bennett, Senior Analyst"
         },
         "competition": {
           "status": "ambiguous",
@@ -670,12 +665,12 @@
         {
           "speaker": "prospect",
           "speakerName": "Alexis Delgado",
-          "text": "Our process from here is security review, then legal, then a signature."
+          "text": "The next step is board approval next month — that's the last gate."
         },
         {
           "speaker": "prospect",
           "speakerName": "Alexis Delgado",
-          "text": "It's somewhat frustrating that we keep having missed follow-ups."
+          "text": "We're losing deals because of our current tool constantly going down."
         },
         {
           "speaker": "prospect",
@@ -685,7 +680,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Alexis Delgado",
-          "text": "We're currently using RivalCorp and comparing it to yours."
+          "text": "We're also evaluating Vendor A alongside your product."
         },
         {
           "speaker": "prospect",
@@ -708,11 +703,11 @@
         },
         "decisionProcess": {
           "status": "found",
-          "value": "security review, then legal, then a signature"
+          "value": "board approval next month"
         },
         "identifyPain": {
           "status": "found",
-          "value": "missed follow-ups"
+          "value": "our current tool constantly going down"
         },
         "champion": {
           "status": "found",
@@ -720,7 +715,7 @@
         },
         "competition": {
           "status": "found",
-          "value": "RivalCorp"
+          "value": "Vendor A"
         }
       }
     },
@@ -751,17 +746,22 @@
         {
           "speaker": "prospect",
           "speakerName": "Avery Boateng",
-          "text": "Marcus Whitfield, CEO ultimately owns the budget for this."
+          "text": "Priya Menon, VP of Finance has the final say on this purchase."
         },
         {
           "speaker": "prospect",
           "speakerName": "Avery Boateng",
-          "text": "The next step is board approval next month — that's the last gate."
+          "text": "single sign-on support is non-negotiable on our side."
         },
         {
           "speaker": "prospect",
           "speakerName": "Avery Boateng",
-          "text": "What's really killing us is deals slipping through the cracks."
+          "text": "We flat out need a dedicated Salesforce integration, no exceptions."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Avery Boateng",
+          "text": "Before we can sign, we need procurement sign-off after the pilot."
         },
         {
           "speaker": "prospect",
@@ -771,12 +771,17 @@
         {
           "speaker": "prospect",
           "speakerName": "Avery Boateng",
-          "text": "Owen Castillo, Team Lead is really pushing for this on our side."
+          "text": "What's really killing us is deals slipping through the cracks."
         },
         {
           "speaker": "prospect",
           "speakerName": "Avery Boateng",
-          "text": "Someone suggested we compare this to LegacyStack."
+          "text": "Maya Torres, Product Manager has been selling this internally for us."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Avery Boateng",
+          "text": "We might take a look at CompeteCo too, haven't decided."
         },
         {
           "speaker": "prospect",
@@ -791,15 +796,15 @@
         },
         "economicBuyer": {
           "status": "found",
-          "value": "Marcus Whitfield, CEO"
+          "value": "Priya Menon, VP of Finance"
         },
         "decisionCriteria": {
-          "status": "absent",
+          "status": "ambiguous",
           "value": null
         },
         "decisionProcess": {
           "status": "found",
-          "value": "board approval next month"
+          "value": "procurement sign-off after the pilot"
         },
         "identifyPain": {
           "status": "ambiguous",
@@ -807,11 +812,11 @@
         },
         "champion": {
           "status": "found",
-          "value": "Owen Castillo, Team Lead"
+          "value": "Maya Torres, Product Manager"
         },
         "competition": {
           "status": "found",
-          "value": "LegacyStack"
+          "value": "CompeteCo"
         }
       }
     },
@@ -832,7 +837,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Avery Boateng",
-          "text": "Roughly speaking, we might see something like $80K, though it's early to say."
+          "text": "Someone mentioned a number, maybe $50K, but I wasn't in that meeting."
         },
         {
           "speaker": "prospect",
@@ -842,7 +847,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Avery Boateng",
-          "text": "We flat out need a dedicated Salesforce integration, no exceptions."
+          "text": "We're losing deals because of our current tool constantly going down."
         },
         {
           "speaker": "prospect",
@@ -852,17 +857,12 @@
         {
           "speaker": "prospect",
           "speakerName": "Avery Boateng",
-          "text": "We're losing deals because of our current tool constantly going down."
+          "text": "Sophia Reyes might be open to it, but I'm not sure."
         },
         {
           "speaker": "prospect",
           "speakerName": "Avery Boateng",
-          "text": "Ethan Voss, Team Lead mentioned it once in passing, nothing more than that."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Avery Boateng",
-          "text": "Someone suggested we compare this to LegacyStack."
+          "text": "I heard we might check out a couple of other tools, but not seriously."
         },
         {
           "speaker": "prospect",
@@ -873,15 +873,15 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "$80K"
+          "value": "$45K"
         },
         "economicBuyer": {
           "status": "absent",
           "value": null
         },
         "decisionCriteria": {
-          "status": "ambiguous",
-          "value": null
+          "status": "found",
+          "value": "single sign-on support"
         },
         "decisionProcess": {
           "status": "absent",
@@ -893,7 +893,7 @@
         },
         "champion": {
           "status": "found",
-          "value": "Ethan Voss, Team Lead"
+          "value": "Sophia Reyes, Senior Analyst"
         },
         "competition": {
           "status": "found",
@@ -923,22 +923,22 @@
         {
           "speaker": "prospect",
           "speakerName": "Jordan Okafor",
-          "text": "single sign-on support is non-negotiable on our side."
+          "text": "SOC 2 compliance is a hard requirement for us — we can't move forward without it."
         },
         {
           "speaker": "prospect",
           "speakerName": "Jordan Okafor",
-          "text": "It usually goes through a 30-day evaluation period, from what I understand."
+          "text": "Before we can sign, we need procurement sign-off after the pilot."
         },
         {
           "speaker": "prospect",
           "speakerName": "Jordan Okafor",
-          "text": "Maya Torres, Product Manager has been selling this internally for us."
+          "text": "Grace Feldman, Sales Ops Manager has been championing this internally."
         },
         {
           "speaker": "prospect",
           "speakerName": "Jordan Okafor",
-          "text": "Someone suggested we compare this to LegacyStack."
+          "text": "We might take a look at CompeteCo too, haven't decided."
         },
         {
           "speaker": "prospect",
@@ -957,11 +957,11 @@
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "single sign-on support"
+          "value": "SOC 2 compliance"
         },
         "decisionProcess": {
           "status": "found",
-          "value": "a 30-day evaluation period"
+          "value": "procurement sign-off after the pilot"
         },
         "identifyPain": {
           "status": "absent",
@@ -969,11 +969,11 @@
         },
         "champion": {
           "status": "found",
-          "value": "Maya Torres, Product Manager"
+          "value": "Grace Feldman, Sales Ops Manager"
         },
         "competition": {
           "status": "found",
-          "value": "LegacyStack"
+          "value": "CompeteCo"
         }
       }
     },
@@ -999,27 +999,37 @@
         {
           "speaker": "prospect",
           "speakerName": "Sage Alvarez",
-          "text": "David Ortiz, COO is probably involved in approving this somehow."
+          "text": "Nina Osei might be looped in on approvals at some point."
         },
         {
           "speaker": "prospect",
           "speakerName": "Sage Alvarez",
-          "text": "Someone raised the idea of needing on-prem deployment, not sure if we truly need it."
+          "text": "multi-language support might matter down the line, but it's vague right now."
         },
         {
           "speaker": "prospect",
           "speakerName": "Sage Alvarez",
-          "text": "Before we can sign, we need procurement sign-off after the pilot."
+          "text": "I think the process involves three more stakeholder demos, roughly."
         },
         {
           "speaker": "prospect",
           "speakerName": "Sage Alvarez",
-          "text": "What's really killing us is deals slipping through the cracks."
+          "text": "It's kind of an issue that we have duplicate data across three systems."
         },
         {
           "speaker": "prospect",
           "speakerName": "Sage Alvarez",
-          "text": "We might take a look at CompeteCo too, haven't decided."
+          "text": "Owen Castillo, Team Lead is really pushing for this on our side."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sage Alvarez",
+          "text": "Grace Feldman, Sales Ops Manager has been championing this internally."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sage Alvarez",
+          "text": "I heard we might check out a couple of other tools, but not seriously."
         },
         {
           "speaker": "prospect",
@@ -1030,31 +1040,31 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "$50K"
+          "value": "$45K"
         },
         "economicBuyer": {
           "status": "found",
-          "value": "David Ortiz, COO"
+          "value": "Nina Osei, CFO"
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "on-prem deployment"
+          "value": "localization support"
         },
         "decisionProcess": {
           "status": "found",
-          "value": "procurement sign-off after the pilot"
+          "value": "three more stakeholder demos"
         },
         "identifyPain": {
           "status": "found",
-          "value": "deals slipping through the cracks"
+          "value": "duplicate data across three systems"
         },
         "champion": {
-          "status": "absent",
+          "status": "ambiguous",
           "value": null
         },
         "competition": {
           "status": "found",
-          "value": "CompeteCo"
+          "value": "LegacyStack"
         }
       }
     },
@@ -1075,7 +1085,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Jordan Marchetti",
-          "text": "Nina Osei, CFO might be looped in on approvals at some point."
+          "text": "Not sure how involved Tom Baxter will end up being."
         },
         {
           "speaker": "prospect",
@@ -1085,7 +1095,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Jordan Marchetti",
-          "text": "The next step is board approval next month — that's the last gate."
+          "text": "Our process from here is security review, then legal, then a signature."
         },
         {
           "speaker": "prospect",
@@ -1110,15 +1120,15 @@
         },
         "economicBuyer": {
           "status": "found",
-          "value": "Nina Osei, CFO"
+          "value": "Tom Baxter, VP of Finance"
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "multi-language support"
+          "value": "localization support"
         },
         "decisionProcess": {
           "status": "found",
-          "value": "board approval next month"
+          "value": "security review, then legal, then a signature"
         },
         "identifyPain": {
           "status": "found",
@@ -1156,27 +1166,32 @@
         {
           "speaker": "prospect",
           "speakerName": "Rowan Marchetti",
-          "text": "This could increase our conversion rate by 18%."
+          "text": "We flat out need a dedicated Salesforce integration, no exceptions."
         },
         {
           "speaker": "prospect",
           "speakerName": "Rowan Marchetti",
-          "text": "I think the process involves three more stakeholder demos, roughly."
+          "text": "SOC 2 compliance is a hard requirement for us — we can't move forward without it."
         },
         {
           "speaker": "prospect",
           "speakerName": "Rowan Marchetti",
-          "text": "It's somewhat frustrating that we keep having missed follow-ups."
+          "text": "I guess there's another round of reviews, but I don't know the details."
         },
         {
           "speaker": "prospect",
           "speakerName": "Rowan Marchetti",
-          "text": "Leo Bennett, Senior Analyst seems supportive of this so far."
+          "text": "Not a huge deal, but there are occasional sync issues sometimes."
         },
         {
           "speaker": "prospect",
           "speakerName": "Rowan Marchetti",
-          "text": "Someone suggested we compare this to LegacyStack."
+          "text": "Sophia Reyes might be open to it, but I'm not sure."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Rowan Marchetti",
+          "text": "I heard we might check out a couple of other tools, but not seriously."
         },
         {
           "speaker": "prospect",
@@ -1186,28 +1201,28 @@
       ],
       "groundTruth": {
         "metrics": {
-          "status": "ambiguous",
-          "value": null
+          "status": "found",
+          "value": "15 hours"
         },
         "economicBuyer": {
           "status": "absent",
           "value": null
         },
         "decisionCriteria": {
-          "status": "absent",
+          "status": "ambiguous",
           "value": null
         },
         "decisionProcess": {
           "status": "found",
-          "value": "three more stakeholder demos"
+          "value": "a legal review"
         },
         "identifyPain": {
           "status": "found",
-          "value": "missed follow-ups"
+          "value": "recurring data sync failures"
         },
         "champion": {
           "status": "found",
-          "value": "Leo Bennett, Senior Analyst"
+          "value": "Sophia Reyes, Senior Analyst"
         },
         "competition": {
           "status": "found",
@@ -1232,7 +1247,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Riley Fitzgerald",
-          "text": "We're projecting $250K in additional revenue from this."
+          "text": "This could increase our conversion rate by 18%."
         },
         {
           "speaker": "prospect",
@@ -1242,7 +1257,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Riley Fitzgerald",
-          "text": "The next step is board approval next month — that's the last gate."
+          "text": "Before we can sign, we need procurement sign-off after the pilot."
         },
         {
           "speaker": "prospect",
@@ -1252,7 +1267,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Riley Fitzgerald",
-          "text": "We're also evaluating Vendor A alongside your product."
+          "text": "Honestly, we're not evaluating anyone else — you're the only one we're talking to."
         },
         {
           "speaker": "prospect",
@@ -1263,7 +1278,7 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "$250K"
+          "value": "18%"
         },
         "economicBuyer": {
           "status": "found",
@@ -1275,7 +1290,7 @@
         },
         "decisionProcess": {
           "status": "found",
-          "value": "board approval next month"
+          "value": "procurement sign-off after the pilot"
         },
         "identifyPain": {
           "status": "absent",
@@ -1287,7 +1302,7 @@
         },
         "competition": {
           "status": "found",
-          "value": "Vendor A"
+          "value": "anyone else"
         }
       }
     },
@@ -1308,32 +1323,32 @@
         {
           "speaker": "prospect",
           "speakerName": "Reese Boateng",
-          "text": "That would save us $120K a year in operating costs."
+          "text": "We're projecting $250K in additional revenue from this."
         },
         {
           "speaker": "prospect",
           "speakerName": "Reese Boateng",
-          "text": "Nina Osei, CFO might be looped in on approvals at some point."
+          "text": "I think Rachel Kim, Chief Revenue Officer has some say in the budget, though I'm not certain."
         },
         {
           "speaker": "prospect",
           "speakerName": "Reese Boateng",
-          "text": "We're hoping for a named customer success manager, though it's not a dealbreaker."
+          "text": "We flat out need a dedicated Salesforce integration, no exceptions."
         },
         {
           "speaker": "prospect",
           "speakerName": "Reese Boateng",
-          "text": "I guess there's another round of reviews, but I don't know the details."
+          "text": "I think the process involves three more stakeholder demos, roughly."
         },
         {
           "speaker": "prospect",
           "speakerName": "Reese Boateng",
-          "text": "Zoe Whitaker, Operations Lead has been fairly positive about it, from what I've seen."
+          "text": "Maya Torres, Product Manager has been selling this internally for us."
         },
         {
           "speaker": "prospect",
           "speakerName": "Reese Boateng",
-          "text": "We're currently using RivalCorp and comparing it to yours."
+          "text": "Honestly, we're not evaluating anyone else — you're the only one we're talking to."
         },
         {
           "speaker": "prospect",
@@ -1344,19 +1359,19 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "$120K"
+          "value": "$250K"
         },
         "economicBuyer": {
           "status": "found",
-          "value": "Nina Osei, CFO"
+          "value": "Rachel Kim, Chief Revenue Officer"
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "a named customer success manager"
+          "value": "a dedicated Salesforce integration"
         },
         "decisionProcess": {
           "status": "found",
-          "value": "another round of reviews"
+          "value": "three more stakeholder demos"
         },
         "identifyPain": {
           "status": "absent",
@@ -1364,11 +1379,11 @@
         },
         "champion": {
           "status": "found",
-          "value": "Zoe Whitaker, Operations Lead"
+          "value": "Maya Torres, Product Manager"
         },
         "competition": {
           "status": "found",
-          "value": "RivalCorp"
+          "value": "anyone else"
         }
       }
     },
@@ -1389,27 +1404,22 @@
         {
           "speaker": "prospect",
           "speakerName": "Blair Okafor",
-          "text": "That would free up 15 hours a week for the team."
+          "text": "Roughly speaking, we might see something like $80K, though it's early to say."
         },
         {
           "speaker": "prospect",
           "speakerName": "Blair Okafor",
-          "text": "Marcus Whitfield, CEO ultimately owns the budget for this."
+          "text": "I think Rachel Kim, Chief Revenue Officer has some say in the budget, though I'm not certain."
         },
         {
           "speaker": "prospect",
           "speakerName": "Blair Okafor",
-          "text": "multi-language support might matter down the line, but it's vague right now."
+          "text": "Someone raised the idea of needing on-prem deployment, not sure if we truly need it."
         },
         {
           "speaker": "prospect",
           "speakerName": "Blair Okafor",
-          "text": "It's kind of an issue that we have duplicate data across three systems."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Blair Okafor",
-          "text": "Grace Feldman, Sales Ops Manager has been championing this internally."
+          "text": "Not a huge deal, but there are occasional sync issues sometimes."
         },
         {
           "speaker": "prospect",
@@ -1419,7 +1429,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Blair Okafor",
-          "text": "I heard we might check out a couple of other tools, but not seriously."
+          "text": "Someone mentioned something from a past project, though it barely came up."
         },
         {
           "speaker": "prospect",
@@ -1430,15 +1440,15 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "15 hours"
+          "value": "$80K"
         },
         "economicBuyer": {
           "status": "found",
-          "value": "Marcus Whitfield, CEO"
+          "value": "Rachel Kim, Chief Revenue Officer"
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "multi-language support"
+          "value": "a self-hosted option"
         },
         "decisionProcess": {
           "status": "absent",
@@ -1446,15 +1456,15 @@
         },
         "identifyPain": {
           "status": "found",
-          "value": "duplicate data across three systems"
+          "value": "recurring data sync failures"
         },
         "champion": {
-          "status": "ambiguous",
-          "value": null
+          "status": "found",
+          "value": "Owen Castillo, Team Lead"
         },
         "competition": {
           "status": "found",
-          "value": "a couple of other tools"
+          "value": "an old internal spreadsheet"
         }
       }
     },
@@ -1475,7 +1485,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Skyler Hutchins",
-          "text": "Someone mentioned a number, maybe $50K, but I wasn't in that meeting."
+          "text": "It's hard to pin down, but maybe around 10% improvement."
         },
         {
           "speaker": "prospect",
@@ -1485,22 +1495,17 @@
         {
           "speaker": "prospect",
           "speakerName": "Skyler Hutchins",
-          "text": "We flat out need a dedicated Salesforce integration, no exceptions."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Skyler Hutchins",
           "text": "SOC 2 compliance is a hard requirement for us — we can't move forward without it."
         },
         {
           "speaker": "prospect",
           "speakerName": "Skyler Hutchins",
-          "text": "Our process from here is security review, then legal, then a signature."
+          "text": "We flat out need a dedicated Salesforce integration, no exceptions."
         },
         {
           "speaker": "prospect",
           "speakerName": "Skyler Hutchins",
-          "text": "We're losing deals because of our current tool constantly going down."
+          "text": "The next step is board approval next month — that's the last gate."
         },
         {
           "speaker": "prospect",
@@ -1510,7 +1515,12 @@
         {
           "speaker": "prospect",
           "speakerName": "Skyler Hutchins",
-          "text": "Someone mentioned something from a past project, though it barely came up."
+          "text": "We're losing deals because of our current tool constantly going down."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Skyler Hutchins",
+          "text": "I heard we might check out a couple of other tools, but not seriously."
         },
         {
           "speaker": "prospect",
@@ -1521,7 +1531,7 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "$50K"
+          "value": "10%"
         },
         "economicBuyer": {
           "status": "found",
@@ -1533,7 +1543,7 @@
         },
         "decisionProcess": {
           "status": "found",
-          "value": "security review, then legal, then a signature"
+          "value": "board approval next month"
         },
         "identifyPain": {
           "status": "ambiguous",
@@ -1545,7 +1555,7 @@
         },
         "competition": {
           "status": "found",
-          "value": "something from a past project"
+          "value": "LegacyStack"
         }
       }
     },
@@ -1566,7 +1576,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Avery Okafor",
-          "text": "Elena Diaz, CFO will need to sign off before we can move forward."
+          "text": "Priya Menon, VP of Finance has the final say on this purchase."
         },
         {
           "speaker": "prospect",
@@ -1581,17 +1591,17 @@
         {
           "speaker": "prospect",
           "speakerName": "Avery Okafor",
-          "text": "It's somewhat frustrating that we keep having missed follow-ups."
+          "text": "It's kind of an issue that we have duplicate data across three systems."
         },
         {
           "speaker": "prospect",
           "speakerName": "Avery Okafor",
-          "text": "Zoe Whitaker, Operations Lead has been fairly positive about it, from what I've seen."
+          "text": "Leo Bennett, Senior Analyst seems supportive of this so far."
         },
         {
           "speaker": "prospect",
           "speakerName": "Avery Okafor",
-          "text": "We're currently using RivalCorp and comparing it to yours."
+          "text": "Honestly, we're not evaluating anyone else — you're the only one we're talking to."
         },
         {
           "speaker": "prospect",
@@ -1606,7 +1616,7 @@
         },
         "economicBuyer": {
           "status": "found",
-          "value": "Elena Diaz, CFO"
+          "value": "Priya Menon, VP of Finance"
         },
         "decisionCriteria": {
           "status": "found",
@@ -1614,19 +1624,19 @@
         },
         "decisionProcess": {
           "status": "found",
-          "value": "another round of reviews"
+          "value": "a legal review"
         },
         "identifyPain": {
           "status": "found",
-          "value": "missed follow-ups"
+          "value": "duplicate data across three systems"
         },
         "champion": {
           "status": "found",
-          "value": "Zoe Whitaker, Operations Lead"
+          "value": "Leo Bennett, Senior Analyst"
         },
         "competition": {
           "status": "found",
-          "value": "RivalCorp"
+          "value": "anyone else"
         }
       }
     },
@@ -1647,12 +1657,12 @@
         {
           "speaker": "prospect",
           "speakerName": "Sage Petrov",
-          "text": "That would save us $120K a year in operating costs."
+          "text": "We're projecting $250K in additional revenue from this."
         },
         {
           "speaker": "prospect",
           "speakerName": "Sage Petrov",
-          "text": "Marcus Whitfield, CEO ultimately owns the budget for this."
+          "text": "Elena Diaz, CFO will need to sign off before we can move forward."
         },
         {
           "speaker": "prospect",
@@ -1662,7 +1672,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Sage Petrov",
-          "text": "The real problem for us is manual reporting eating up 10 hours a week."
+          "text": "We're losing deals because of our current tool constantly going down."
         },
         {
           "speaker": "prospect",
@@ -1683,11 +1693,11 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "$120K"
+          "value": "$250K"
         },
         "economicBuyer": {
           "status": "found",
-          "value": "Marcus Whitfield, CEO"
+          "value": "Elena Diaz, CFO"
         },
         "decisionCriteria": {
           "status": "absent",
@@ -1699,7 +1709,7 @@
         },
         "identifyPain": {
           "status": "found",
-          "value": "manual reporting eating up 10 hours a week"
+          "value": "our current tool constantly going down"
         },
         "champion": {
           "status": "ambiguous",
@@ -1733,7 +1743,12 @@
         {
           "speaker": "prospect",
           "speakerName": "Harper Marchetti",
-          "text": "It usually goes through a 30-day evaluation period, from what I understand."
+          "text": "Before we can sign, we need procurement sign-off after the pilot."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Harper Marchetti",
+          "text": "We're losing deals because of our current tool constantly going down."
         },
         {
           "speaker": "prospect",
@@ -1743,17 +1758,12 @@
         {
           "speaker": "prospect",
           "speakerName": "Harper Marchetti",
-          "text": "What's really killing us is deals slipping through the cracks."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Harper Marchetti",
-          "text": "Owen Castillo, Team Lead is really pushing for this on our side."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Harper Marchetti",
           "text": "Grace Feldman, Sales Ops Manager has been championing this internally."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Harper Marchetti",
+          "text": "Maya Torres, Product Manager has been selling this internally for us."
         },
         {
           "speaker": "prospect",
@@ -1776,7 +1786,7 @@
         },
         "decisionProcess": {
           "status": "found",
-          "value": "a 30-day evaluation period"
+          "value": "procurement sign-off after the pilot"
         },
         "identifyPain": {
           "status": "ambiguous",
@@ -1809,37 +1819,37 @@
         {
           "speaker": "prospect",
           "speakerName": "Avery Delgado",
-          "text": "That would free up 15 hours a week for the team."
+          "text": "That would save us $120K a year in operating costs."
         },
         {
           "speaker": "prospect",
           "speakerName": "Avery Delgado",
-          "text": "Not sure how involved Tom Baxter, VP of Finance will end up being."
+          "text": "David Ortiz, COO is probably involved in approving this somehow."
         },
         {
           "speaker": "prospect",
           "speakerName": "Avery Delgado",
-          "text": "SOC 2 compliance is a hard requirement for us — we can't move forward without it."
+          "text": "single sign-on support is non-negotiable on our side."
         },
         {
           "speaker": "prospect",
           "speakerName": "Avery Delgado",
-          "text": "It usually goes through a 30-day evaluation period, from what I understand."
+          "text": "Before we can sign, we need procurement sign-off after the pilot."
         },
         {
           "speaker": "prospect",
           "speakerName": "Avery Delgado",
-          "text": "We're losing deals because of our current tool constantly going down."
+          "text": "What's really killing us is deals slipping through the cracks."
         },
         {
           "speaker": "prospect",
           "speakerName": "Avery Delgado",
-          "text": "Owen Castillo, Team Lead is really pushing for this on our side."
+          "text": "Grace Feldman, Sales Ops Manager has been championing this internally."
         },
         {
           "speaker": "prospect",
           "speakerName": "Avery Delgado",
-          "text": "Someone suggested we compare this to LegacyStack."
+          "text": "We might take a look at CompeteCo too, haven't decided."
         },
         {
           "speaker": "prospect",
@@ -1850,31 +1860,31 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "15 hours"
+          "value": "$120K"
         },
         "economicBuyer": {
           "status": "found",
-          "value": "Tom Baxter, VP of Finance"
+          "value": "David Ortiz, COO"
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "SOC 2 compliance"
+          "value": "single sign-on support"
         },
         "decisionProcess": {
           "status": "found",
-          "value": "a 30-day evaluation period"
+          "value": "procurement sign-off after the pilot"
         },
         "identifyPain": {
           "status": "found",
-          "value": "our current tool constantly going down"
+          "value": "deals slipping through the cracks"
         },
         "champion": {
           "status": "found",
-          "value": "Owen Castillo, Team Lead"
+          "value": "Grace Feldman, Sales Ops Manager"
         },
         "competition": {
           "status": "found",
-          "value": "LegacyStack"
+          "value": "CompeteCo"
         }
       }
     },
@@ -1900,12 +1910,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Harper Larsson",
-          "text": "We're projecting $250K in additional revenue from this."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Harper Larsson",
-          "text": "Not sure how involved Tom Baxter, VP of Finance will end up being."
+          "text": "Not sure how involved Tom Baxter will end up being."
         },
         {
           "speaker": "prospect",
@@ -1925,12 +1930,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Harper Larsson",
-          "text": "We're losing deals because of our current tool constantly going down."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Harper Larsson",
-          "text": "Leo Bennett, Senior Analyst seems supportive of this so far."
+          "text": "Sophia Reyes might be open to it, but I'm not sure."
         },
         {
           "speaker": "prospect",
@@ -1940,8 +1940,8 @@
       ],
       "groundTruth": {
         "metrics": {
-          "status": "ambiguous",
-          "value": null
+          "status": "found",
+          "value": "15 hours"
         },
         "economicBuyer": {
           "status": "found",
@@ -1953,15 +1953,15 @@
         },
         "decisionProcess": {
           "status": "found",
-          "value": "another round of reviews"
+          "value": "a legal review"
         },
         "identifyPain": {
-          "status": "ambiguous",
-          "value": null
+          "status": "found",
+          "value": "manual reporting eating up 10 hours a week"
         },
         "champion": {
           "status": "found",
-          "value": "Leo Bennett, Senior Analyst"
+          "value": "Sophia Reyes, Senior Analyst"
         },
         "competition": {
           "status": "absent",
@@ -1986,7 +1986,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Casey Delgado",
-          "text": "It's hard to pin down, but maybe around 10% improvement."
+          "text": "That would free up 15 hours a week for the team."
         },
         {
           "speaker": "prospect",
@@ -1996,22 +1996,22 @@
         {
           "speaker": "prospect",
           "speakerName": "Casey Delgado",
-          "text": "We flat out need a dedicated Salesforce integration, no exceptions."
+          "text": "SOC 2 compliance is a hard requirement for us — we can't move forward without it."
         },
         {
           "speaker": "prospect",
           "speakerName": "Casey Delgado",
-          "text": "It usually goes through a 30-day evaluation period, from what I understand."
+          "text": "I think the process involves three more stakeholder demos, roughly."
         },
         {
           "speaker": "prospect",
           "speakerName": "Casey Delgado",
-          "text": "Zoe Whitaker, Operations Lead has been fairly positive about it, from what I've seen."
+          "text": "Owen Castillo, Team Lead is really pushing for this on our side."
         },
         {
           "speaker": "prospect",
           "speakerName": "Casey Delgado",
-          "text": "Someone suggested we compare this to LegacyStack."
+          "text": "We might take a look at CompeteCo too, haven't decided."
         },
         {
           "speaker": "prospect",
@@ -2022,7 +2022,7 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "10%"
+          "value": "15 hours"
         },
         "economicBuyer": {
           "status": "found",
@@ -2030,11 +2030,11 @@
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "a dedicated Salesforce integration"
+          "value": "SOC 2 compliance"
         },
         "decisionProcess": {
           "status": "found",
-          "value": "a 30-day evaluation period"
+          "value": "three more stakeholder demos"
         },
         "identifyPain": {
           "status": "absent",
@@ -2042,11 +2042,11 @@
         },
         "champion": {
           "status": "found",
-          "value": "Zoe Whitaker, Operations Lead"
+          "value": "Owen Castillo, Team Lead"
         },
         "competition": {
           "status": "found",
-          "value": "LegacyStack"
+          "value": "CompeteCo"
         }
       }
     },
@@ -2067,17 +2067,37 @@
         {
           "speaker": "prospect",
           "speakerName": "Alexis Petrov",
-          "text": "David Ortiz, COO is probably involved in approving this somehow."
+          "text": "That would free up 15 hours a week for the team."
         },
         {
           "speaker": "prospect",
           "speakerName": "Alexis Petrov",
-          "text": "We flat out need a dedicated Salesforce integration, no exceptions."
+          "text": "We're projecting $250K in additional revenue from this."
         },
         {
           "speaker": "prospect",
           "speakerName": "Alexis Petrov",
-          "text": "We're losing deals because of our current tool constantly going down."
+          "text": "Not sure how involved Tom Baxter will end up being."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Alexis Petrov",
+          "text": "We're hoping for a named customer success manager, though it's not a dealbreaker."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Alexis Petrov",
+          "text": "Our process from here is security review, then legal, then a signature."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Alexis Petrov",
+          "text": "Before we can sign, we need procurement sign-off after the pilot."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Alexis Petrov",
+          "text": "The real problem for us is manual reporting eating up 10 hours a week."
         },
         {
           "speaker": "prospect",
@@ -2087,7 +2107,17 @@
         {
           "speaker": "prospect",
           "speakerName": "Alexis Petrov",
-          "text": "Leo Bennett, Senior Analyst seems supportive of this so far."
+          "text": "Ethan Voss mentioned it once in passing, nothing more than that."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Alexis Petrov",
+          "text": "We're currently using RivalCorp and comparing it to yours."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Alexis Petrov",
+          "text": "Honestly, we're not evaluating anyone else — you're the only one we're talking to."
         },
         {
           "speaker": "prospect",
@@ -2097,19 +2127,19 @@
       ],
       "groundTruth": {
         "metrics": {
-          "status": "absent",
+          "status": "ambiguous",
           "value": null
         },
         "economicBuyer": {
           "status": "found",
-          "value": "David Ortiz, COO"
+          "value": "Tom Baxter, VP of Finance"
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "a dedicated Salesforce integration"
+          "value": "a named customer success manager"
         },
         "decisionProcess": {
-          "status": "absent",
+          "status": "ambiguous",
           "value": null
         },
         "identifyPain": {
@@ -2118,10 +2148,10 @@
         },
         "champion": {
           "status": "found",
-          "value": "Leo Bennett, Senior Analyst"
+          "value": "Ethan Voss, Team Lead"
         },
         "competition": {
-          "status": "absent",
+          "status": "ambiguous",
           "value": null
         }
       }
@@ -2143,7 +2173,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Dakota Sinclair",
-          "text": "Someone mentioned a number, maybe $50K, but I wasn't in that meeting."
+          "text": "It's hard to pin down, but maybe around 10% improvement."
         },
         {
           "speaker": "prospect",
@@ -2153,7 +2183,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Dakota Sinclair",
-          "text": "I think the process involves three more stakeholder demos, roughly."
+          "text": "Our process from here is security review, then legal, then a signature."
         },
         {
           "speaker": "prospect",
@@ -2163,7 +2193,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Dakota Sinclair",
-          "text": "Honestly, we're not evaluating anyone else — you're the only one we're talking to."
+          "text": "We're currently using RivalCorp and comparing it to yours."
         },
         {
           "speaker": "prospect",
@@ -2174,7 +2204,7 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "$50K"
+          "value": "10%"
         },
         "economicBuyer": {
           "status": "absent",
@@ -2182,11 +2212,11 @@
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "on-prem deployment"
+          "value": "a self-hosted option"
         },
         "decisionProcess": {
           "status": "found",
-          "value": "three more stakeholder demos"
+          "value": "security review, then legal, then a signature"
         },
         "identifyPain": {
           "status": "absent",
@@ -2198,7 +2228,7 @@
         },
         "competition": {
           "status": "found",
-          "value": "anyone else"
+          "value": "RivalCorp"
         }
       }
     },
@@ -2224,17 +2254,27 @@
         {
           "speaker": "prospect",
           "speakerName": "Rowan Hutchins",
-          "text": "David Ortiz, COO is probably involved in approving this somehow."
+          "text": "Not sure how involved Tom Baxter will end up being."
         },
         {
           "speaker": "prospect",
           "speakerName": "Rowan Hutchins",
-          "text": "It's somewhat frustrating that we keep having missed follow-ups."
+          "text": "Before we can sign, we need procurement sign-off after the pilot."
         },
         {
           "speaker": "prospect",
           "speakerName": "Rowan Hutchins",
-          "text": "Honestly, we're not evaluating anyone else — you're the only one we're talking to."
+          "text": "Our process from here is security review, then legal, then a signature."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Rowan Hutchins",
+          "text": "Not a huge deal, but there are occasional sync issues sometimes."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Rowan Hutchins",
+          "text": "We're currently using RivalCorp and comparing it to yours."
         },
         {
           "speaker": "prospect",
@@ -2249,19 +2289,19 @@
         },
         "economicBuyer": {
           "status": "found",
-          "value": "David Ortiz, COO"
+          "value": "Tom Baxter, VP of Finance"
         },
         "decisionCriteria": {
           "status": "absent",
           "value": null
         },
         "decisionProcess": {
-          "status": "absent",
+          "status": "ambiguous",
           "value": null
         },
         "identifyPain": {
           "status": "found",
-          "value": "missed follow-ups"
+          "value": "recurring data sync failures"
         },
         "champion": {
           "status": "absent",
@@ -2269,7 +2309,7 @@
         },
         "competition": {
           "status": "found",
-          "value": "anyone else"
+          "value": "RivalCorp"
         }
       }
     },
@@ -2290,32 +2330,32 @@
         {
           "speaker": "prospect",
           "speakerName": "Avery Wren",
-          "text": "Nina Osei, CFO might be looped in on approvals at some point."
+          "text": "David Ortiz, COO is probably involved in approving this somehow."
         },
         {
           "speaker": "prospect",
           "speakerName": "Avery Wren",
-          "text": "sub-second response times would be nice to have — it's on our checklist."
+          "text": "We're hoping for a named customer success manager, though it's not a dealbreaker."
         },
         {
           "speaker": "prospect",
           "speakerName": "Avery Wren",
-          "text": "Not a huge deal, but there are occasional sync issues sometimes."
+          "text": "I guess it's mildly annoying that there's a bit of manual copy-pasting involved."
         },
         {
           "speaker": "prospect",
           "speakerName": "Avery Wren",
-          "text": "Ethan Voss, Team Lead mentioned it once in passing, nothing more than that."
+          "text": "Sophia Reyes might be open to it, but I'm not sure."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Avery Wren",
+          "text": "We're currently using RivalCorp and comparing it to yours."
         },
         {
           "speaker": "prospect",
           "speakerName": "Avery Wren",
           "text": "Honestly, we're not evaluating anyone else — you're the only one we're talking to."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Avery Wren",
-          "text": "We're also evaluating Vendor A alongside your product."
         },
         {
           "speaker": "prospect",
@@ -2330,11 +2370,11 @@
         },
         "economicBuyer": {
           "status": "found",
-          "value": "Nina Osei, CFO"
+          "value": "David Ortiz, COO"
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "sub-second response times"
+          "value": "a named customer success manager"
         },
         "decisionProcess": {
           "status": "absent",
@@ -2342,11 +2382,11 @@
         },
         "identifyPain": {
           "status": "found",
-          "value": "occasional sync issues"
+          "value": "hours of manual copy-pasting weekly"
         },
         "champion": {
           "status": "found",
-          "value": "Ethan Voss, Team Lead"
+          "value": "Sophia Reyes, Senior Analyst"
         },
         "competition": {
           "status": "ambiguous",
@@ -2371,12 +2411,12 @@
         {
           "speaker": "prospect",
           "speakerName": "Sage Okafor",
-          "text": "Elena Diaz, CFO will need to sign off before we can move forward."
+          "text": "Marcus Whitfield, CEO ultimately owns the budget for this."
         },
         {
           "speaker": "prospect",
           "speakerName": "Sage Okafor",
-          "text": "Someone raised the idea of needing on-prem deployment, not sure if we truly need it."
+          "text": "We're hoping for a named customer success manager, though it's not a dealbreaker."
         },
         {
           "speaker": "prospect",
@@ -2386,7 +2426,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Sage Okafor",
-          "text": "Not a huge deal, but there are occasional sync issues sometimes."
+          "text": "It's somewhat frustrating that we keep having missed follow-ups."
         },
         {
           "speaker": "prospect",
@@ -2411,11 +2451,11 @@
         },
         "economicBuyer": {
           "status": "found",
-          "value": "Elena Diaz, CFO"
+          "value": "Marcus Whitfield, CEO"
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "on-prem deployment"
+          "value": "a named customer success manager"
         },
         "decisionProcess": {
           "status": "found",
@@ -2423,7 +2463,7 @@
         },
         "identifyPain": {
           "status": "found",
-          "value": "occasional sync issues"
+          "value": "missed follow-ups"
         },
         "champion": {
           "status": "found",
@@ -2452,17 +2492,27 @@
         {
           "speaker": "prospect",
           "speakerName": "Blair Hutchins",
-          "text": "Elena Diaz, CFO will need to sign off before we can move forward."
+          "text": "I think Rachel Kim, Chief Revenue Officer has some say in the budget, though I'm not certain."
         },
         {
           "speaker": "prospect",
           "speakerName": "Blair Hutchins",
-          "text": "sub-second response times would be nice to have — it's on our checklist."
+          "text": "multi-language support might matter down the line, but it's vague right now."
         },
         {
           "speaker": "prospect",
           "speakerName": "Blair Hutchins",
-          "text": "I think the process involves three more stakeholder demos, roughly."
+          "text": "There's probably some internal sign-off needed, not totally sure what happens after this."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Blair Hutchins",
+          "text": "We're losing deals because of our current tool constantly going down."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Blair Hutchins",
+          "text": "What's really killing us is deals slipping through the cracks."
         },
         {
           "speaker": "prospect",
@@ -2472,12 +2522,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Blair Hutchins",
-          "text": "Maya Torres, Product Manager has been selling this internally for us."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Blair Hutchins",
-          "text": "Honestly, we're not evaluating anyone else — you're the only one we're talking to."
+          "text": "Someone suggested we compare this to LegacyStack."
         },
         {
           "speaker": "prospect",
@@ -2492,27 +2537,27 @@
         },
         "economicBuyer": {
           "status": "found",
-          "value": "Elena Diaz, CFO"
+          "value": "Rachel Kim, Chief Revenue Officer"
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "sub-second response times"
+          "value": "localization support"
         },
         "decisionProcess": {
           "status": "found",
-          "value": "three more stakeholder demos"
+          "value": "a finance review"
         },
         "identifyPain": {
-          "status": "absent",
-          "value": null
-        },
-        "champion": {
           "status": "ambiguous",
           "value": null
         },
+        "champion": {
+          "status": "found",
+          "value": "Owen Castillo, Team Lead"
+        },
         "competition": {
           "status": "found",
-          "value": "anyone else"
+          "value": "LegacyStack"
         }
       }
     },
@@ -2538,22 +2583,22 @@
         {
           "speaker": "prospect",
           "speakerName": "Rowan Okafor",
-          "text": "Marcus Whitfield, CEO ultimately owns the budget for this."
+          "text": "Elena Diaz, CFO will need to sign off before we can move forward."
         },
         {
           "speaker": "prospect",
           "speakerName": "Rowan Okafor",
-          "text": "multi-language support might matter down the line, but it's vague right now."
+          "text": "Someone raised the idea of needing on-prem deployment, not sure if we truly need it."
         },
         {
           "speaker": "prospect",
           "speakerName": "Rowan Okafor",
-          "text": "I guess there's another round of reviews, but I don't know the details."
+          "text": "It usually goes through a 30-day evaluation period, from what I understand."
         },
         {
           "speaker": "prospect",
           "speakerName": "Rowan Okafor",
-          "text": "Sophia Reyes, Senior Analyst might be open to it, but I'm not sure."
+          "text": "Zoe Whitaker, Operations Lead has been fairly positive about it, from what I've seen."
         },
         {
           "speaker": "prospect",
@@ -2573,15 +2618,15 @@
         },
         "economicBuyer": {
           "status": "found",
-          "value": "Marcus Whitfield, CEO"
+          "value": "Elena Diaz, CFO"
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "multi-language support"
+          "value": "a self-hosted option"
         },
         "decisionProcess": {
           "status": "found",
-          "value": "another round of reviews"
+          "value": "a 30-day evaluation period"
         },
         "identifyPain": {
           "status": "absent",
@@ -2589,7 +2634,7 @@
         },
         "champion": {
           "status": "found",
-          "value": "Sophia Reyes, Senior Analyst"
+          "value": "Zoe Whitaker, Operations Lead"
         },
         "competition": {
           "status": "found",
@@ -2619,7 +2664,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Morgan Nakamura",
-          "text": "sub-second response times would be nice to have — it's on our checklist."
+          "text": "We flat out need a dedicated Salesforce integration, no exceptions."
         },
         {
           "speaker": "prospect",
@@ -2629,17 +2674,17 @@
         {
           "speaker": "prospect",
           "speakerName": "Morgan Nakamura",
-          "text": "It's kind of an issue that we have duplicate data across three systems."
+          "text": "What's really killing us is deals slipping through the cracks."
         },
         {
           "speaker": "prospect",
           "speakerName": "Morgan Nakamura",
-          "text": "Ethan Voss, Team Lead mentioned it once in passing, nothing more than that."
+          "text": "Ethan Voss mentioned it once in passing, nothing more than that."
         },
         {
           "speaker": "prospect",
           "speakerName": "Morgan Nakamura",
-          "text": "We're currently using RivalCorp and comparing it to yours."
+          "text": "We're also evaluating Vendor A alongside your product."
         },
         {
           "speaker": "prospect",
@@ -2658,7 +2703,7 @@
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "sub-second response times"
+          "value": "a dedicated Salesforce integration"
         },
         "decisionProcess": {
           "status": "found",
@@ -2666,7 +2711,7 @@
         },
         "identifyPain": {
           "status": "found",
-          "value": "duplicate data across three systems"
+          "value": "deals slipping through the cracks"
         },
         "champion": {
           "status": "found",
@@ -2674,7 +2719,7 @@
         },
         "competition": {
           "status": "found",
-          "value": "RivalCorp"
+          "value": "Vendor A"
         }
       }
     },
@@ -2695,27 +2740,17 @@
         {
           "speaker": "prospect",
           "speakerName": "Alexis Fitzgerald",
-          "text": "This could increase our conversion rate by 18%."
+          "text": "We're projecting $250K in additional revenue from this."
         },
         {
           "speaker": "prospect",
           "speakerName": "Alexis Fitzgerald",
-          "text": "Not sure how involved Tom Baxter, VP of Finance will end up being."
+          "text": "Not sure how involved Tom Baxter will end up being."
         },
         {
           "speaker": "prospect",
           "speakerName": "Alexis Fitzgerald",
-          "text": "single sign-on support is non-negotiable on our side."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Alexis Fitzgerald",
-          "text": "We flat out need a dedicated Salesforce integration, no exceptions."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Alexis Fitzgerald",
-          "text": "Before we can sign, we need procurement sign-off after the pilot."
+          "text": "The next step is board approval next month — that's the last gate."
         },
         {
           "speaker": "prospect",
@@ -2725,7 +2760,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Alexis Fitzgerald",
-          "text": "Ethan Voss, Team Lead mentioned it once in passing, nothing more than that."
+          "text": "Sophia Reyes might be open to it, but I'm not sure."
         },
         {
           "speaker": "prospect",
@@ -2746,19 +2781,19 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "18%"
+          "value": "$250K"
         },
         "economicBuyer": {
           "status": "found",
           "value": "Tom Baxter, VP of Finance"
         },
         "decisionCriteria": {
-          "status": "ambiguous",
+          "status": "absent",
           "value": null
         },
         "decisionProcess": {
           "status": "found",
-          "value": "procurement sign-off after the pilot"
+          "value": "board approval next month"
         },
         "identifyPain": {
           "status": "found",
@@ -2766,7 +2801,7 @@
         },
         "champion": {
           "status": "found",
-          "value": "Ethan Voss, Team Lead"
+          "value": "Sophia Reyes, Senior Analyst"
         },
         "competition": {
           "status": "ambiguous",
@@ -2791,27 +2826,27 @@
         {
           "speaker": "prospect",
           "speakerName": "Jordan Okafor",
-          "text": "I think Rachel Kim, Chief Revenue Officer has some say in the budget, though I'm not certain."
+          "text": "Not sure how involved Tom Baxter will end up being."
         },
         {
           "speaker": "prospect",
           "speakerName": "Jordan Okafor",
-          "text": "We're hoping for a named customer success manager, though it's not a dealbreaker."
+          "text": "Someone raised the idea of needing on-prem deployment, not sure if we truly need it."
         },
         {
           "speaker": "prospect",
           "speakerName": "Jordan Okafor",
-          "text": "It's kind of an issue that we have duplicate data across three systems."
+          "text": "Not a huge deal, but there are occasional sync issues sometimes."
         },
         {
           "speaker": "prospect",
           "speakerName": "Jordan Okafor",
-          "text": "Owen Castillo, Team Lead is really pushing for this on our side."
+          "text": "Grace Feldman, Sales Ops Manager has been championing this internally."
         },
         {
           "speaker": "prospect",
           "speakerName": "Jordan Okafor",
-          "text": "Someone suggested we compare this to LegacyStack."
+          "text": "Someone mentioned something from a past project, though it barely came up."
         },
         {
           "speaker": "prospect",
@@ -2826,11 +2861,11 @@
         },
         "economicBuyer": {
           "status": "found",
-          "value": "Rachel Kim, Chief Revenue Officer"
+          "value": "Tom Baxter, VP of Finance"
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "a named customer success manager"
+          "value": "a self-hosted option"
         },
         "decisionProcess": {
           "status": "absent",
@@ -2838,15 +2873,15 @@
         },
         "identifyPain": {
           "status": "found",
-          "value": "duplicate data across three systems"
+          "value": "recurring data sync failures"
         },
         "champion": {
           "status": "found",
-          "value": "Owen Castillo, Team Lead"
+          "value": "Grace Feldman, Sales Ops Manager"
         },
         "competition": {
           "status": "found",
-          "value": "LegacyStack"
+          "value": "an old internal spreadsheet"
         }
       }
     },
@@ -2867,7 +2902,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Quinn Petrov",
-          "text": "We're projecting $250K in additional revenue from this."
+          "text": "It's hard to pin down, but maybe around 10% improvement."
         },
         {
           "speaker": "prospect",
@@ -2877,22 +2912,27 @@
         {
           "speaker": "prospect",
           "speakerName": "Quinn Petrov",
-          "text": "There's probably some internal sign-off needed, not totally sure what happens after this."
+          "text": "I guess there's another round of reviews, but I don't know the details."
         },
         {
           "speaker": "prospect",
           "speakerName": "Quinn Petrov",
-          "text": "Not a huge deal, but there are occasional sync issues sometimes."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Quinn Petrov",
-          "text": "Grace Feldman, Sales Ops Manager has been championing this internally."
+          "text": "I guess it's mildly annoying that there's a bit of manual copy-pasting involved."
         },
         {
           "speaker": "prospect",
           "speakerName": "Quinn Petrov",
           "text": "Maya Torres, Product Manager has been selling this internally for us."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Quinn Petrov",
+          "text": "We're currently using RivalCorp and comparing it to yours."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Quinn Petrov",
+          "text": "Honestly, we're not evaluating anyone else — you're the only one we're talking to."
         },
         {
           "speaker": "prospect",
@@ -2903,7 +2943,7 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "$250K"
+          "value": "10%"
         },
         "economicBuyer": {
           "status": "absent",
@@ -2911,22 +2951,22 @@
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "on-prem deployment"
+          "value": "a self-hosted option"
         },
         "decisionProcess": {
           "status": "found",
-          "value": "some internal sign-off"
+          "value": "a legal review"
         },
         "identifyPain": {
           "status": "found",
-          "value": "occasional sync issues"
+          "value": "hours of manual copy-pasting weekly"
         },
         "champion": {
-          "status": "ambiguous",
-          "value": null
+          "status": "found",
+          "value": "Maya Torres, Product Manager"
         },
         "competition": {
-          "status": "absent",
+          "status": "ambiguous",
           "value": null
         }
       }
@@ -2953,32 +2993,32 @@
         {
           "speaker": "prospect",
           "speakerName": "Quinn Delgado",
-          "text": "Not sure how involved Tom Baxter, VP of Finance will end up being."
+          "text": "Nina Osei might be looped in on approvals at some point."
         },
         {
           "speaker": "prospect",
           "speakerName": "Quinn Delgado",
-          "text": "We're hoping for a named customer success manager, though it's not a dealbreaker."
+          "text": "multi-language support might matter down the line, but it's vague right now."
         },
         {
           "speaker": "prospect",
           "speakerName": "Quinn Delgado",
-          "text": "Our process from here is security review, then legal, then a signature."
+          "text": "It usually goes through a 30-day evaluation period, from what I understand."
         },
         {
           "speaker": "prospect",
           "speakerName": "Quinn Delgado",
-          "text": "It's kind of an issue that we have duplicate data across three systems."
+          "text": "I guess it's mildly annoying that there's a bit of manual copy-pasting involved."
         },
         {
           "speaker": "prospect",
           "speakerName": "Quinn Delgado",
-          "text": "Leo Bennett, Senior Analyst seems supportive of this so far."
+          "text": "Ethan Voss mentioned it once in passing, nothing more than that."
         },
         {
           "speaker": "prospect",
           "speakerName": "Quinn Delgado",
-          "text": "We might take a look at CompeteCo too, haven't decided."
+          "text": "I heard we might check out a couple of other tools, but not seriously."
         },
         {
           "speaker": "prospect",
@@ -2989,31 +3029,31 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "$50K"
+          "value": "$45K"
         },
         "economicBuyer": {
           "status": "found",
-          "value": "Tom Baxter, VP of Finance"
+          "value": "Nina Osei, CFO"
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "a named customer success manager"
+          "value": "localization support"
         },
         "decisionProcess": {
           "status": "found",
-          "value": "security review, then legal, then a signature"
+          "value": "a 30-day evaluation period"
         },
         "identifyPain": {
           "status": "found",
-          "value": "duplicate data across three systems"
+          "value": "hours of manual copy-pasting weekly"
         },
         "champion": {
           "status": "found",
-          "value": "Leo Bennett, Senior Analyst"
+          "value": "Ethan Voss, Team Lead"
         },
         "competition": {
           "status": "found",
-          "value": "CompeteCo"
+          "value": "LegacyStack"
         }
       }
     },
@@ -3034,32 +3074,12 @@
         {
           "speaker": "prospect",
           "speakerName": "Harper Okafor",
-          "text": "We're projecting $250K in additional revenue from this."
+          "text": "It's kind of an issue that we have duplicate data across three systems."
         },
         {
           "speaker": "prospect",
           "speakerName": "Harper Okafor",
-          "text": "That would free up 15 hours a week for the team."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Harper Okafor",
-          "text": "Priya Menon, VP of Finance has the final say on this purchase."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Harper Okafor",
-          "text": "Marcus Whitfield, CEO ultimately owns the budget for this."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Harper Okafor",
-          "text": "It's somewhat frustrating that we keep having missed follow-ups."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Harper Okafor",
-          "text": "Sophia Reyes, Senior Analyst might be open to it, but I'm not sure."
+          "text": "Zoe Whitaker, Operations Lead has been fairly positive about it, from what I've seen."
         },
         {
           "speaker": "prospect",
@@ -3074,11 +3094,11 @@
       ],
       "groundTruth": {
         "metrics": {
-          "status": "ambiguous",
+          "status": "absent",
           "value": null
         },
         "economicBuyer": {
-          "status": "ambiguous",
+          "status": "absent",
           "value": null
         },
         "decisionCriteria": {
@@ -3091,11 +3111,11 @@
         },
         "identifyPain": {
           "status": "found",
-          "value": "missed follow-ups"
+          "value": "duplicate data across three systems"
         },
         "champion": {
           "status": "found",
-          "value": "Sophia Reyes, Senior Analyst"
+          "value": "Zoe Whitaker, Operations Lead"
         },
         "competition": {
           "status": "found",
@@ -3120,22 +3140,22 @@
         {
           "speaker": "prospect",
           "speakerName": "Avery Delgado",
-          "text": "We're projecting $250K in additional revenue from this."
+          "text": "That would save us $120K a year in operating costs."
         },
         {
           "speaker": "prospect",
           "speakerName": "Avery Delgado",
-          "text": "The next step is board approval next month — that's the last gate."
+          "text": "Before we can sign, we need procurement sign-off after the pilot."
         },
         {
           "speaker": "prospect",
           "speakerName": "Avery Delgado",
-          "text": "I guess it's mildly annoying that there's a bit of manual copy-pasting involved."
+          "text": "It's somewhat frustrating that we keep having missed follow-ups."
         },
         {
           "speaker": "prospect",
           "speakerName": "Avery Delgado",
-          "text": "We might take a look at CompeteCo too, haven't decided."
+          "text": "We're currently using RivalCorp and comparing it to yours."
         },
         {
           "speaker": "prospect",
@@ -3146,7 +3166,7 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "$250K"
+          "value": "$120K"
         },
         "economicBuyer": {
           "status": "absent",
@@ -3158,11 +3178,11 @@
         },
         "decisionProcess": {
           "status": "found",
-          "value": "board approval next month"
+          "value": "procurement sign-off after the pilot"
         },
         "identifyPain": {
           "status": "found",
-          "value": "a bit of manual copy-pasting"
+          "value": "missed follow-ups"
         },
         "champion": {
           "status": "absent",
@@ -3170,7 +3190,7 @@
         },
         "competition": {
           "status": "found",
-          "value": "CompeteCo"
+          "value": "RivalCorp"
         }
       }
     },
@@ -3191,17 +3211,17 @@
         {
           "speaker": "prospect",
           "speakerName": "Sage Boateng",
-          "text": "It's hard to pin down, but maybe around 10% improvement."
+          "text": "Roughly speaking, we might see something like $80K, though it's early to say."
         },
         {
           "speaker": "prospect",
           "speakerName": "Sage Boateng",
-          "text": "SOC 2 compliance is a hard requirement for us — we can't move forward without it."
+          "text": "single sign-on support is non-negotiable on our side."
         },
         {
           "speaker": "prospect",
           "speakerName": "Sage Boateng",
-          "text": "It usually goes through a 30-day evaluation period, from what I understand."
+          "text": "I think the process involves three more stakeholder demos, roughly."
         },
         {
           "speaker": "prospect",
@@ -3211,7 +3231,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Sage Boateng",
-          "text": "I heard we might check out a couple of other tools, but not seriously."
+          "text": "We might take a look at CompeteCo too, haven't decided."
         },
         {
           "speaker": "prospect",
@@ -3222,7 +3242,7 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "10%"
+          "value": "$80K"
         },
         "economicBuyer": {
           "status": "absent",
@@ -3230,11 +3250,11 @@
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "SOC 2 compliance"
+          "value": "single sign-on support"
         },
         "decisionProcess": {
           "status": "found",
-          "value": "a 30-day evaluation period"
+          "value": "three more stakeholder demos"
         },
         "identifyPain": {
           "status": "absent",
@@ -3246,7 +3266,7 @@
         },
         "competition": {
           "status": "found",
-          "value": "a couple of other tools"
+          "value": "CompeteCo"
         }
       }
     },
@@ -3267,22 +3287,12 @@
         {
           "speaker": "prospect",
           "speakerName": "Emerson Hutchins",
-          "text": "Roughly speaking, we might see something like $80K, though it's early to say."
+          "text": "It's hard to pin down, but maybe around 10% improvement."
         },
         {
           "speaker": "prospect",
           "speakerName": "Emerson Hutchins",
-          "text": "Marcus Whitfield, CEO ultimately owns the budget for this."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Emerson Hutchins",
-          "text": "Elena Diaz, CFO will need to sign off before we can move forward."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Emerson Hutchins",
-          "text": "Someone suggested we compare this to LegacyStack."
+          "text": "We're currently using RivalCorp and comparing it to yours."
         },
         {
           "speaker": "prospect",
@@ -3293,10 +3303,10 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "$80K"
+          "value": "10%"
         },
         "economicBuyer": {
-          "status": "ambiguous",
+          "status": "absent",
           "value": null
         },
         "decisionCriteria": {
@@ -3317,7 +3327,7 @@
         },
         "competition": {
           "status": "found",
-          "value": "LegacyStack"
+          "value": "RivalCorp"
         }
       }
     },
@@ -3338,7 +3348,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Sage Delgado",
-          "text": "Elena Diaz, CFO will need to sign off before we can move forward."
+          "text": "Marcus Whitfield, CEO ultimately owns the budget for this."
         },
         {
           "speaker": "prospect",
@@ -3348,7 +3358,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Sage Delgado",
-          "text": "The real problem for us is manual reporting eating up 10 hours a week."
+          "text": "What's really killing us is deals slipping through the cracks."
         },
         {
           "speaker": "prospect",
@@ -3363,7 +3373,7 @@
         },
         "economicBuyer": {
           "status": "found",
-          "value": "Elena Diaz, CFO"
+          "value": "Marcus Whitfield, CEO"
         },
         "decisionCriteria": {
           "status": "absent",
@@ -3375,7 +3385,7 @@
         },
         "identifyPain": {
           "status": "found",
-          "value": "manual reporting eating up 10 hours a week"
+          "value": "deals slipping through the cracks"
         },
         "champion": {
           "status": "absent",
@@ -3404,17 +3414,12 @@
         {
           "speaker": "prospect",
           "speakerName": "Riley Hutchins",
-          "text": "It's hard to pin down, but maybe around 10% improvement."
+          "text": "Someone mentioned a number, maybe $50K, but I wasn't in that meeting."
         },
         {
           "speaker": "prospect",
           "speakerName": "Riley Hutchins",
-          "text": "Nina Osei, CFO might be looped in on approvals at some point."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Riley Hutchins",
-          "text": "single sign-on support is non-negotiable on our side."
+          "text": "Not sure how involved Tom Baxter will end up being."
         },
         {
           "speaker": "prospect",
@@ -3429,7 +3434,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Riley Hutchins",
-          "text": "The real problem for us is manual reporting eating up 10 hours a week."
+          "text": "We're losing deals because of our current tool constantly going down."
         },
         {
           "speaker": "prospect",
@@ -3450,15 +3455,15 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "10%"
+          "value": "$45K"
         },
         "economicBuyer": {
           "status": "found",
-          "value": "Nina Osei, CFO"
+          "value": "Tom Baxter, VP of Finance"
         },
         "decisionCriteria": {
-          "status": "ambiguous",
-          "value": null
+          "status": "found",
+          "value": "a dedicated Salesforce integration"
         },
         "decisionProcess": {
           "status": "found",
@@ -3466,7 +3471,7 @@
         },
         "identifyPain": {
           "status": "found",
-          "value": "manual reporting eating up 10 hours a week"
+          "value": "our current tool constantly going down"
         },
         "champion": {
           "status": "found",
@@ -3495,12 +3500,12 @@
         {
           "speaker": "prospect",
           "speakerName": "Morgan Fitzgerald",
-          "text": "That would free up 15 hours a week for the team."
+          "text": "It's hard to pin down, but maybe around 10% improvement."
         },
         {
           "speaker": "prospect",
           "speakerName": "Morgan Fitzgerald",
-          "text": "Nina Osei, CFO might be looped in on approvals at some point."
+          "text": "Nina Osei might be looped in on approvals at some point."
         },
         {
           "speaker": "prospect",
@@ -3510,12 +3515,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Morgan Fitzgerald",
-          "text": "We're losing deals because of our current tool constantly going down."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Morgan Fitzgerald",
-          "text": "Leo Bennett, Senior Analyst seems supportive of this so far."
+          "text": "Ethan Voss mentioned it once in passing, nothing more than that."
         },
         {
           "speaker": "prospect",
@@ -3526,7 +3526,7 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "15 hours"
+          "value": "10%"
         },
         "economicBuyer": {
           "status": "found",
@@ -3541,12 +3541,12 @@
           "value": null
         },
         "identifyPain": {
-          "status": "ambiguous",
-          "value": null
+          "status": "found",
+          "value": "manual reporting eating up 10 hours a week"
         },
         "champion": {
           "status": "found",
-          "value": "Leo Bennett, Senior Analyst"
+          "value": "Ethan Voss, Team Lead"
         },
         "competition": {
           "status": "absent",
@@ -3571,12 +3571,22 @@
         {
           "speaker": "prospect",
           "speakerName": "Riley Alvarez",
-          "text": "Priya Menon, VP of Finance has the final say on this purchase."
+          "text": "Marcus Whitfield, CEO ultimately owns the budget for this."
         },
         {
           "speaker": "prospect",
           "speakerName": "Riley Alvarez",
-          "text": "Marcus Whitfield, CEO ultimately owns the budget for this."
+          "text": "Elena Diaz, CFO will need to sign off before we can move forward."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Riley Alvarez",
+          "text": "SOC 2 compliance is a hard requirement for us — we can't move forward without it."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Riley Alvarez",
+          "text": "single sign-on support is non-negotiable on our side."
         },
         {
           "speaker": "prospect",
@@ -3586,22 +3596,17 @@
         {
           "speaker": "prospect",
           "speakerName": "Riley Alvarez",
-          "text": "It's somewhat frustrating that we keep having missed follow-ups."
+          "text": "I guess it's mildly annoying that there's a bit of manual copy-pasting involved."
         },
         {
           "speaker": "prospect",
           "speakerName": "Riley Alvarez",
-          "text": "Owen Castillo, Team Lead is really pushing for this on our side."
+          "text": "Zoe Whitaker, Operations Lead has been fairly positive about it, from what I've seen."
         },
         {
           "speaker": "prospect",
           "speakerName": "Riley Alvarez",
           "text": "We're also evaluating Vendor A alongside your product."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Riley Alvarez",
-          "text": "We're currently using RivalCorp and comparing it to yours."
         },
         {
           "speaker": "prospect",
@@ -3619,24 +3624,24 @@
           "value": null
         },
         "decisionCriteria": {
-          "status": "absent",
+          "status": "ambiguous",
           "value": null
         },
         "decisionProcess": {
           "status": "found",
-          "value": "another round of reviews"
+          "value": "a legal review"
         },
         "identifyPain": {
           "status": "found",
-          "value": "missed follow-ups"
+          "value": "hours of manual copy-pasting weekly"
         },
         "champion": {
           "status": "found",
-          "value": "Owen Castillo, Team Lead"
+          "value": "Zoe Whitaker, Operations Lead"
         },
         "competition": {
-          "status": "ambiguous",
-          "value": null
+          "status": "found",
+          "value": "Vendor A"
         }
       }
     },
@@ -3657,32 +3662,42 @@
         {
           "speaker": "prospect",
           "speakerName": "Harper Petrov",
-          "text": "Roughly speaking, we might see something like $80K, though it's early to say."
+          "text": "Someone mentioned a number, maybe $50K, but I wasn't in that meeting."
         },
         {
           "speaker": "prospect",
           "speakerName": "Harper Petrov",
-          "text": "Nina Osei, CFO might be looped in on approvals at some point."
+          "text": "Nina Osei might be looped in on approvals at some point."
         },
         {
           "speaker": "prospect",
           "speakerName": "Harper Petrov",
-          "text": "We're hoping for a named customer success manager, though it's not a dealbreaker."
+          "text": "Someone raised the idea of needing on-prem deployment, not sure if we truly need it."
         },
         {
           "speaker": "prospect",
           "speakerName": "Harper Petrov",
-          "text": "It usually goes through a 30-day evaluation period, from what I understand."
+          "text": "I guess there's another round of reviews, but I don't know the details."
         },
         {
           "speaker": "prospect",
           "speakerName": "Harper Petrov",
-          "text": "Not a huge deal, but there are occasional sync issues sometimes."
+          "text": "I guess it's mildly annoying that there's a bit of manual copy-pasting involved."
         },
         {
           "speaker": "prospect",
           "speakerName": "Harper Petrov",
-          "text": "We might take a look at CompeteCo too, haven't decided."
+          "text": "Owen Castillo, Team Lead is really pushing for this on our side."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Harper Petrov",
+          "text": "Maya Torres, Product Manager has been selling this internally for us."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Harper Petrov",
+          "text": "I heard we might check out a couple of other tools, but not seriously."
         },
         {
           "speaker": "prospect",
@@ -3693,7 +3708,7 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "$80K"
+          "value": "$45K"
         },
         "economicBuyer": {
           "status": "found",
@@ -3701,23 +3716,23 @@
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "a named customer success manager"
+          "value": "a self-hosted option"
         },
         "decisionProcess": {
           "status": "found",
-          "value": "a 30-day evaluation period"
+          "value": "a legal review"
         },
         "identifyPain": {
           "status": "found",
-          "value": "occasional sync issues"
+          "value": "hours of manual copy-pasting weekly"
         },
         "champion": {
-          "status": "absent",
+          "status": "ambiguous",
           "value": null
         },
         "competition": {
           "status": "found",
-          "value": "CompeteCo"
+          "value": "LegacyStack"
         }
       }
     },
@@ -3738,12 +3753,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Emerson Sinclair",
-          "text": "David Ortiz, COO is probably involved in approving this somehow."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Emerson Sinclair",
-          "text": "We flat out need a dedicated Salesforce integration, no exceptions."
+          "text": "I think Rachel Kim, Chief Revenue Officer has some say in the budget, though I'm not certain."
         },
         {
           "speaker": "prospect",
@@ -3753,22 +3763,17 @@
         {
           "speaker": "prospect",
           "speakerName": "Emerson Sinclair",
-          "text": "It's somewhat frustrating that we keep having missed follow-ups."
+          "text": "single sign-on support is non-negotiable on our side."
         },
         {
           "speaker": "prospect",
           "speakerName": "Emerson Sinclair",
-          "text": "Leo Bennett, Senior Analyst seems supportive of this so far."
+          "text": "It's kind of an issue that we have duplicate data across three systems."
         },
         {
           "speaker": "prospect",
           "speakerName": "Emerson Sinclair",
-          "text": "We're also evaluating Vendor A alongside your product."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Emerson Sinclair",
-          "text": "We're currently using RivalCorp and comparing it to yours."
+          "text": "Zoe Whitaker, Operations Lead has been fairly positive about it, from what I've seen."
         },
         {
           "speaker": "prospect",
@@ -3783,7 +3788,7 @@
         },
         "economicBuyer": {
           "status": "found",
-          "value": "David Ortiz, COO"
+          "value": "Rachel Kim, Chief Revenue Officer"
         },
         "decisionCriteria": {
           "status": "ambiguous",
@@ -3795,14 +3800,14 @@
         },
         "identifyPain": {
           "status": "found",
-          "value": "missed follow-ups"
+          "value": "duplicate data across three systems"
         },
         "champion": {
           "status": "found",
-          "value": "Leo Bennett, Senior Analyst"
+          "value": "Zoe Whitaker, Operations Lead"
         },
         "competition": {
-          "status": "ambiguous",
+          "status": "absent",
           "value": null
         }
       }
@@ -3829,17 +3834,17 @@
         {
           "speaker": "prospect",
           "speakerName": "Rowan Alvarez",
-          "text": "I think Rachel Kim, Chief Revenue Officer has some say in the budget, though I'm not certain."
+          "text": "Marcus Whitfield, CEO ultimately owns the budget for this."
         },
         {
           "speaker": "prospect",
           "speakerName": "Rowan Alvarez",
-          "text": "Before we can sign, we need procurement sign-off after the pilot."
+          "text": "The next step is board approval next month — that's the last gate."
         },
         {
           "speaker": "prospect",
           "speakerName": "Rowan Alvarez",
-          "text": "Not a huge deal, but there are occasional sync issues sometimes."
+          "text": "It's somewhat frustrating that we keep having missed follow-ups."
         },
         {
           "speaker": "prospect",
@@ -3864,7 +3869,7 @@
         },
         "economicBuyer": {
           "status": "found",
-          "value": "Rachel Kim, Chief Revenue Officer"
+          "value": "Marcus Whitfield, CEO"
         },
         "decisionCriteria": {
           "status": "absent",
@@ -3872,11 +3877,11 @@
         },
         "decisionProcess": {
           "status": "found",
-          "value": "procurement sign-off after the pilot"
+          "value": "board approval next month"
         },
         "identifyPain": {
           "status": "found",
-          "value": "occasional sync issues"
+          "value": "missed follow-ups"
         },
         "champion": {
           "status": "found",
@@ -3910,7 +3915,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Skyler Boateng",
-          "text": "Not sure how involved Tom Baxter, VP of Finance will end up being."
+          "text": "David Ortiz, COO is probably involved in approving this somehow."
         },
         {
           "speaker": "prospect",
@@ -3920,22 +3925,22 @@
         {
           "speaker": "prospect",
           "speakerName": "Skyler Boateng",
-          "text": "I think the process involves three more stakeholder demos, roughly."
+          "text": "It usually goes through a 30-day evaluation period, from what I understand."
         },
         {
           "speaker": "prospect",
           "speakerName": "Skyler Boateng",
-          "text": "What's really killing us is deals slipping through the cracks."
+          "text": "We're losing deals because of our current tool constantly going down."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Skyler Boateng",
+          "text": "We're also evaluating Vendor A alongside your product."
         },
         {
           "speaker": "prospect",
           "speakerName": "Skyler Boateng",
           "text": "We're currently using RivalCorp and comparing it to yours."
-        },
-        {
-          "speaker": "prospect",
-          "speakerName": "Skyler Boateng",
-          "text": "Honestly, we're not evaluating anyone else — you're the only one we're talking to."
         },
         {
           "speaker": "prospect",
@@ -3946,23 +3951,23 @@
       "groundTruth": {
         "metrics": {
           "status": "found",
-          "value": "a few hours"
+          "value": "6 hours"
         },
         "economicBuyer": {
           "status": "found",
-          "value": "Tom Baxter, VP of Finance"
+          "value": "David Ortiz, COO"
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "on-prem deployment"
+          "value": "a self-hosted option"
         },
         "decisionProcess": {
           "status": "found",
-          "value": "three more stakeholder demos"
+          "value": "a 30-day evaluation period"
         },
         "identifyPain": {
           "status": "found",
-          "value": "deals slipping through the cracks"
+          "value": "our current tool constantly going down"
         },
         "champion": {
           "status": "absent",
@@ -3991,17 +3996,17 @@
         {
           "speaker": "prospect",
           "speakerName": "Emerson Delgado",
-          "text": "I think Rachel Kim, Chief Revenue Officer has some say in the budget, though I'm not certain."
+          "text": "David Ortiz, COO is probably involved in approving this somehow."
         },
         {
           "speaker": "prospect",
           "speakerName": "Emerson Delgado",
-          "text": "sub-second response times would be nice to have — it's on our checklist."
+          "text": "SOC 2 compliance is a hard requirement for us — we can't move forward without it."
         },
         {
           "speaker": "prospect",
           "speakerName": "Emerson Delgado",
-          "text": "I think the process involves three more stakeholder demos, roughly."
+          "text": "It usually goes through a 30-day evaluation period, from what I understand."
         },
         {
           "speaker": "prospect",
@@ -4011,7 +4016,7 @@
         {
           "speaker": "prospect",
           "speakerName": "Emerson Delgado",
-          "text": "Owen Castillo, Team Lead is really pushing for this on our side."
+          "text": "Grace Feldman, Sales Ops Manager has been championing this internally."
         },
         {
           "speaker": "prospect",
@@ -4036,15 +4041,15 @@
         },
         "economicBuyer": {
           "status": "found",
-          "value": "Rachel Kim, Chief Revenue Officer"
+          "value": "David Ortiz, COO"
         },
         "decisionCriteria": {
           "status": "found",
-          "value": "sub-second response times"
+          "value": "SOC 2 compliance"
         },
         "decisionProcess": {
           "status": "found",
-          "value": "three more stakeholder demos"
+          "value": "a 30-day evaluation period"
         },
         "identifyPain": {
           "status": "found",
@@ -4052,7 +4057,7 @@
         },
         "champion": {
           "status": "found",
-          "value": "Owen Castillo, Team Lead"
+          "value": "Grace Feldman, Sales Ops Manager"
         },
         "competition": {
           "status": "ambiguous",

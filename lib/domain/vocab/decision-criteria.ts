@@ -11,7 +11,8 @@ export const DECISION_CRITERIA_VOCAB: PillarVocab = {
     { value: "a named customer success manager", template: "We're hoping for {V}, though it's not a dealbreaker." },
   ],
   weak: [
-    { value: "on-prem deployment", template: "Someone raised the idea of needing {V}, not sure if we truly need it." },
-    { value: "multi-language support", template: "{V} might matter down the line, but it's vague right now." },
+    // A vague raised idea genuinely isn't the same specific requirement as the settled one.
+    { value: "on-prem deployment", groundTruthValue: "a self-hosted option", template: "Someone raised the idea of needing {V}, not sure if we truly need it." },
+    { value: "multi-language support", groundTruthValue: "localization support", template: "{V} might matter down the line, but it's vague right now." },
   ],
 };

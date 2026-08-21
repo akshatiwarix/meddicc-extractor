@@ -8,8 +8,15 @@ export const SEED = 24;
 export const CALL_COUNT = 50;
 
 // Per-pillar status weights: absent / ambiguous / found-high / found-medium / found-low.
-// Sums to 100. See PLAN.md § Method — status is drawn independently per pillar per call.
-const STATUS_WEIGHTS = [28, 12, 25, 20, 15] as const;
+// Sums to 100 each. See PLAN.md § Method — status is drawn independently per
+// pillar per call, but every call first draws one difficulty coin flip that
+// shifts all 7 draws toward ambiguous + weak together (or doesn't) — the
+// same shared cause behind both a call's "ambiguous" grouping (see
+// isAmbiguousCall in lib/meddicc/build-result.ts) and its lower measured
+// accuracy, mirroring a real call that's just genuinely harder to parse.
+const NORMAL_STATUS_WEIGHTS = [32, 8, 33, 19, 8] as const;
+const HARD_STATUS_WEIGHTS = [15, 18, 16, 18, 33] as const;
+const HARD_CALL_PROBABILITY = 0.35;
 
 // ---------------------------------------------------------------------------
 // Scene-setting word lists (not read by any extractor — flavor only)
@@ -81,9 +88,9 @@ function pickTwoDistinct<T>(rng: Rng, pool: readonly T[]): [T, T] {
   return [pool[i]!, pool[j]!];
 }
 
-function drawPillarOutcome(statusRng: Rng, valueRng: Rng, pillar: MeddiccPillar): PillarOutcome {
+function drawPillarOutcome(statusRng: Rng, valueRng: Rng, pillar: MeddiccPillar, isHardCall: boolean): PillarOutcome {
   const vocab = PILLAR_VOCAB[pillar];
-  const idx = statusRng.weightedIndex(STATUS_WEIGHTS);
+  const idx = statusRng.weightedIndex(isHardCall ? HARD_STATUS_WEIGHTS : NORMAL_STATUS_WEIGHTS);
   if (idx === 0) return { kind: "absent" };
   if (idx === 1) {
     const [a, b] = pickTwoDistinct(valueRng, vocab.strong);
@@ -96,7 +103,7 @@ function drawPillarOutcome(statusRng: Rng, valueRng: Rng, pillar: MeddiccPillar)
 function groundTruthFor(outcome: PillarOutcome): GroundTruthPillar {
   if (outcome.kind === "absent") return { status: "absent", value: null };
   if (outcome.kind === "ambiguous") return { status: "ambiguous", value: null };
-  return { status: "found", value: outcome.line.value };
+  return { status: "found", value: outcome.line.groundTruthValue ?? outcome.line.value };
 }
 
 // ---------------------------------------------------------------------------
@@ -109,6 +116,7 @@ type Rngs = {
   prospectTitle: Rng;
   rep: Rng;
   date: Rng;
+  difficulty: Rng;
   status: Record<MeddiccPillar, Rng>;
   value: Record<MeddiccPillar, Rng>;
 };
@@ -120,6 +128,7 @@ function makeRngs(): Rngs {
     prospectTitle: new Rng(derive(SEED, "prospect-title")),
     rep: new Rng(derive(SEED, "rep-name")),
     date: new Rng(derive(SEED, "date")),
+    difficulty: new Rng(derive(SEED, "call-difficulty")),
     status: Object.fromEntries(
       MEDDICC_PILLARS.map((pillar) => [pillar, new Rng(derive(SEED, `${pillar}-status`))]),
     ) as Record<MeddiccPillar, Rng>,
@@ -136,6 +145,7 @@ function generateCall(index: number, rngs: Rngs, usedCompanies: Set<string>): Ca
   const repName = rngs.rep.pick(REP_NAMES);
   const prospectName = `${rngs.prospectName.pick(PROSPECT_FIRST_NAMES)} ${rngs.prospectName.pick(PROSPECT_LAST_NAMES)}`;
   const prospectTitle = rngs.prospectTitle.pick(PROSPECT_TITLES);
+  const isHardCall = rngs.difficulty.bool(HARD_CALL_PROBABILITY);
 
   const transcript: TranscriptLine[] = [];
   const pushRep = (text: string) => transcript.push({ speaker: "rep", speakerName: repName, text });
@@ -146,7 +156,7 @@ function generateCall(index: number, rngs: Rngs, usedCompanies: Set<string>): Ca
 
   const groundTruth = {} as GroundTruthRecord;
   for (const pillar of MEDDICC_PILLARS) {
-    const outcome = drawPillarOutcome(rngs.status[pillar], rngs.value[pillar], pillar);
+    const outcome = drawPillarOutcome(rngs.status[pillar], rngs.value[pillar], pillar, isHardCall);
     groundTruth[pillar] = groundTruthFor(outcome);
     if (outcome.kind === "found") {
       pushProspect(outcome.line.template.replace("{V}", outcome.line.value));

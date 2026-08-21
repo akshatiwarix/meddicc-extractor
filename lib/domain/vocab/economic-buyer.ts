@@ -11,7 +11,8 @@ export const ECONOMIC_BUYER_VOCAB: PillarVocab = {
     { value: "David Ortiz, COO", template: "{V} is probably involved in approving this somehow." },
   ],
   weak: [
-    { value: "Nina Osei, CFO", template: "{V} might be looped in on approvals at some point." },
-    { value: "Tom Baxter, VP of Finance", template: "Not sure how involved {V} will end up being." },
+    // A passing mention of a name genuinely doesn't confirm their title.
+    { value: "Nina Osei", groundTruthValue: "Nina Osei, CFO", template: "{V} might be looped in on approvals at some point." },
+    { value: "Tom Baxter", groundTruthValue: "Tom Baxter, VP of Finance", template: "Not sure how involved {V} will end up being." },
   ],
 };

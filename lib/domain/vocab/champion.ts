@@ -11,7 +11,8 @@ export const CHAMPION_VOCAB: PillarVocab = {
     { value: "Zoe Whitaker, Operations Lead", template: "{V} has been fairly positive about it, from what I've seen." },
   ],
   weak: [
-    { value: "Ethan Voss, Team Lead", template: "{V} mentioned it once in passing, nothing more than that." },
-    { value: "Sophia Reyes, Senior Analyst", template: "{V} might be open to it, but I'm not sure." },
+    // Passing-mention name genuinely doesn't confirm their role.
+    { value: "Ethan Voss", groundTruthValue: "Ethan Voss, Team Lead", template: "{V} mentioned it once in passing, nothing more than that." },
+    { value: "Sophia Reyes", groundTruthValue: "Sophia Reyes, Senior Analyst", template: "{V} might be open to it, but I'm not sure." },
   ],
 };
