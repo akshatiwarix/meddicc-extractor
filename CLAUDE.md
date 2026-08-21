@@ -1,0 +1,87 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## What this is
+
+Day 024 of a 100-day portfolio series. A system that extracts MEDDICC-style
+qualification signals (Metrics, Economic Buyer, Decision Criteria, Decision
+Process, Identify Pain, Champion, Competition) from sales-call transcripts —
+each pillar carrying a status (found/ambiguous/absent), evidence, and a
+confidence level, graded automatically against a hidden ground-truth answer
+key embedded in the corpus at generation time. **`PLAN.md` is the contract
+for this repo** — it was settled with the user before any code was written
+and is not a draft to improve on. If code and `PLAN.md` disagree, the code
+is wrong; if `PLAN.md` needs to change, it changes there first, in writing,
+with a reason. Read `PLAN.md` in full before implementing anything — it
+contains the data model, the exact corpus generative model, every
+extraction rule, the grading formula, and the numbered implementation task
+order this repo is built in.
+
+## Commands
+
+- `npm run dev` — start the dev server.
+- `npm run build` — production build.
+- `npm run typecheck` — `next typegen && tsc --noEmit`.
+- `npm run lint` — ESLint (flat config, `eslint-config-next`).
+- `npm test` / `npm run test:watch` — vitest over `lib/**/*.test.ts` and
+  `data/**/*.test.ts`.
+- `npm run sweep` — `vite-node` script (`scripts/sweep.mts`) asserting the
+  nine corpus-wide invariants listed in `PLAN.md` (§ Validation / test
+  plan). No network.
+- `npm run corpus` — regenerates the committed synthetic corpus from
+  `data/generate.ts` (fixed seed; only needed if the generator changes,
+  since the JSON is committed).
+- Run a single test file: `npx vitest run lib/extraction/metrics.test.ts`.
+
+## Architecture
+
+Six downward-only dependency layers. Nothing below `app/` may import React,
+HTTP, or DOM APIs.
+
+```
+data/                corpus generation (transcripts + embedded ground truth, seeded RNG) + committed JSON + zod load schema
+  ↓
+lib/domain/           Call, TranscriptLine, PillarSignal, GroundTruthRecord, ExtractedRecord, PillarGrade, CallGrade, CorpusAccuracy — types + zod
+  ↓
+lib/extraction/        one extractor per pillar + extractRecord orchestrator
+  ↓
+lib/grading/            gradePillarField, gradeRecord, computeFieldAccuracy
+  ↓
+lib/meddicc/            orchestration — assembles the full result + CorpusAccuracy + completeness
+  ↓
+app/                     three screens (library, call detail, try-it) + /api/v1/records + /api/schema
+```
+
+Load-bearing rules (each enforced by a `npm run sweep` invariant — see
+`PLAN.md`):
+
+- `lib/extraction/` and `lib/grading/` are pure and deterministic: same
+  transcript ⇒ byte-identical `ExtractedRecord`; same extracted/ground-truth
+  pair ⇒ byte-identical `CallGrade`. No `Date.now()`, no unseeded
+  `Math.random()`.
+- `extractRecord` must run identically in the browser (Try It Yourself) and
+  on the server (precomputed library + API route) — no Node-only or
+  DOM-only APIs below `app/`.
+- Grading only ever runs against a call's own committed ground truth. The
+  Try It Yourself page never imports `lib/grading/`.
+- Confidence is assigned inside `lib/extraction/`, from properties of the
+  match itself — never derived from whether the grader later judged the
+  field correct.
+- Completeness (0–7, from the extracted record's own "found" count) and
+  field accuracy (0–100%, extracted vs. ground truth) are computed
+  independently — nothing derives one from the other.
+
+## Stack
+
+Next.js (App Router) + React + TypeScript strict with
+`noUncheckedIndexedAccess`, Tailwind CSS 4, zod at every boundary (API
+output, corpus load), vitest + vite-node for tests/scripts, deployed on
+Vercel. **Zero dependency exceptions** — extraction is hand-rolled
+regex/keyword pattern matching, no NLP library.
+
+## Corpus
+
+`data/generate.ts` produces the committed corpus (50 calls) from a fixed
+seed. Every extraction rule and the grading formula are documented in
+`PLAN.md` § Method.
