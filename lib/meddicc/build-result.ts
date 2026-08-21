@@ -11,7 +11,7 @@ function average(values: number[]): number {
 }
 
 /** A call is "ambiguous" for corpus-accuracy grouping if any pillar's ground truth is ambiguous. */
-function isAmbiguousCall(call: Call): boolean {
+export function isAmbiguousCall(call: Call): boolean {
   return Object.values(call.groundTruth).some((pillar) => pillar.status === "ambiguous");
 }
 

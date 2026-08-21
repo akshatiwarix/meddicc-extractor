@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+/*
+ * MEDDICC Extractor palette: neutral paper/ink base, plus two independent
+ * color scales — confidence (high/medium/low, used only when a pillar is
+ * found) and status (found/ambiguous/absent, always shown). Keeping them
+ * visually distinct matters: a pillar can be found at low confidence, which
+ * is a different fact from a pillar being ambiguous or absent outright.
+ */
+:root {
+  --paper: #f5f4f0;
+  --paper-raised: #ffffff;
+  --ink: #1a1a17;
+  --ink-dim: #6b6459;
+  --line: #ddd9ce;
+  --line-strong: #b6afa0;
+
+  --confidence-high: #3a5a4a;
+  --confidence-high-dim: #cfe0d5;
+  --confidence-medium: #b3701f;
+  --confidence-medium-dim: #efd9b5;
+  --confidence-low: #a23e2e;
+  --confidence-low-dim: #eecac2;
+
+  --status-found: #2f5a8a;
+  --status-found-dim: #d3e0ee;
+  --status-ambiguous: #b3701f;
+  --status-ambiguous-dim: #efd9b5;
+  --status-absent: #6b6459;
+  --status-absent-dim: #e4e1d8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #15130f;
+    --paper-raised: #1c1a15;
+    --ink: #ede9e1;
+    --ink-dim: #a49b8a;
+    --line: #332e21;
+    --line-strong: #4a4429;
+
+    --confidence-high: #7fb69c;
+    --confidence-high-dim: #22392f;
+    --confidence-medium: #d6a04a;
+    --confidence-medium-dim: #453214;
+    --confidence-low: #e08871;
+    --confidence-low-dim: #452720;
+
+    --status-found: #7fa8d6;
+    --status-found-dim: #1f2e40;
+    --status-ambiguous: #d6a04a;
+    --status-ambiguous-dim: #453214;
+    --status-absent: #a49b8a;
+    --status-absent-dim: #2c281f;
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-raised: var(--paper-raised);
+  --color-ink: var(--ink);
+  --color-ink-dim: var(--ink-dim);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-confidence-high: var(--confidence-high);
+  --color-confidence-high-dim: var(--confidence-high-dim);
+  --color-confidence-medium: var(--confidence-medium);
+  --color-confidence-medium-dim: var(--confidence-medium-dim);
+  --color-confidence-low: var(--confidence-low);
+  --color-confidence-low-dim: var(--confidence-low-dim);
+  --color-status-found: var(--status-found);
+  --color-status-found-dim: var(--status-found-dim);
+  --color-status-ambiguous: var(--status-ambiguous);
+  --color-status-ambiguous-dim: var(--status-ambiguous-dim);
+  --color-status-absent: var(--status-absent);
+  --color-status-absent-dim: var(--status-absent-dim);
+  --font-display: var(--font-newsreader);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+* {
+  border-color: var(--line);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
