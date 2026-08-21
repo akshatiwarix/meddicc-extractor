@@ -6,9 +6,10 @@ Identify Pain, Champion, Competition — each pillar carrying its status,
 evidence, and confidence, and graded against a hidden ground-truth answer
 key.
 
-[Live Demo](#) · [Plain-English guide](docs/plain-english-guide.md) ·
-[`GET /api/v1/records`](#) · [Plan](./PLAN.md) · Day 024 of a 100-day
-building challenge
+[Live Demo](https://meddicc-extractor.vercel.app) ·
+[Plain-English guide](docs/plain-english-guide.md) ·
+[`GET /api/v1/records`](https://meddicc-extractor.vercel.app/api/v1/records) ·
+[Plan](./PLAN.md) · Day 024 of a 100-day building challenge
 
 ![Call Library: a corpus accuracy panel showing 81 overall / 85 clean / 78 ambiguous, above a sortable table of 50 calls with completeness and field accuracy columns](docs/screenshot-hero.png)
 
